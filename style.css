@@ -92,3 +92,32 @@ h1{
 .operators div:hover{
   background-color: #f5ad66f0;
 }
+
+@media screen and (max-width:425px) {
+   
+  header {    
+      font-size: 0.8rem;     
+      margin: 10px;     
+  }
+  main {
+      padding: 10px;
+  }
+  
+  .calculator {
+    margin:10vh auto;
+    height: 100vh;
+  }
+  
+  
+/* #display {
+  width: 100%;
+  /* height: 75px; */
+  /* font-size: 2rem; */
+/* } */
+
+/* .buttons {
+  margin: 3px;
+  height: 55px;
+  width: 55px;
+} */
+}
