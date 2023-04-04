@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
-body{
-  background:linear-gradient(45deg, tomato, rgb(250, 120, 250));
+body {
+  background: linear-gradient(45deg, tomato, rgb(250, 120, 250));
 }
-h1{
+h1 {
   text-align: center;
   margin-top: 5px;
   color: #313030;
 }
 .calculator {
-  margin:10vh auto;
+  margin: 10vh auto;
   background-color: rgba(0, 0, 0);
   width: 250px;
   height: 400px;
@@ -24,8 +24,6 @@ h1{
   box-shadow: 0 0 2px 6px rgb(219, 219, 219);
   transform: scale(1.2);
 }
-
-/* Display to display the input, result from the users  */
 
 #display {
   width: 100%;
@@ -38,8 +36,6 @@ h1{
   text-align: right;
   padding: 25px 10px 2px 2px;
 }
-
-/* Buttons like 1, 2 , = ,+ etc. */
 
 .buttons {
   font-family: sans-serif;
@@ -74,52 +70,31 @@ h1{
   text-align: left;
 }
 
-/* Arithmatic Operators have a separate background color  */
-/* .buttons[data-value="="] {
-  background-color: #ff8100f0;
-} */
-
 .buttons:nth-child(5n + 1) {
   background-color: #868685f0;
 }
 
-.buttons:nth-child(5n + 1):hover{
+.buttons:nth-child(5n + 1):hover {
   background-color: #bfbbbbf0;
 }
-.operators div{
+.operators div {
   background-color: #ff8100f0;
 }
-.operators div:hover{
+.operators div:hover {
   background-color: #f5ad66f0;
 }
 
-@media screen and (max-width:425px) {
-   
-  header {    
-      font-size: 0.8rem;     
-      margin: 10px;     
+/* Media Queries */
+@media screen and (max-width: 425px) {
+  header {
+    font-size: 0.8rem;
+    margin: 10px;
   }
   main {
-      padding: 10px;
-      /* height: 100vh; */
-      width : 100%;
+    padding: 10px;
+    width: 100%;
   }
-  
   .calculator {
-    margin:10vh auto;
-    /* height: 100vh; */
+    margin: 10vh auto;
   }
-  
-  
-/* #display {
-  width: 100%;
-  /* height: 75px; */
-  /* font-size: 2rem; */
-/* } */
-
-/* .buttons {
-  margin: 3px;
-  height: 55px;
-  width: 55px;
-} */
 }
