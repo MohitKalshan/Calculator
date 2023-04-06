@@ -11,6 +11,7 @@ for (var i = 0; i < buttons.length; i++) {
     if (value == "AC") {
       // operand1 = parseFloat(display.textContent);//
       var screenvalue = " ";
+      // $('#display').text('screenvalue');
       display.innerText = screenvalue;
     } else if (value == "=") {
       // operand2 = parseFloat(display.textContent);
